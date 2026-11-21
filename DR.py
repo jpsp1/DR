@@ -24,8 +24,7 @@ if openai_api_key:
     print(f"OpenAI API Key exists and begins {openai_api_key[:8]}")
 else:
     print("OpenAI API Key not set - please head to the troubleshooting guide in the setup folder")
-    
-
+   
 hours=24
 report_date=datetime.now().strftime("%a, %Y-%m-%d %H:%M")
 
@@ -60,6 +59,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-#_TODO_
-# usar inputs/ outputs estruturados    
