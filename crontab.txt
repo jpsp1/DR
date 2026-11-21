@@ -1,0 +1,6 @@
+Sample crontab line
+
+50 6  * * * D=...; source $D/.venv/bin/activate; /home/assist/.local/bin/uv  run $D/DR.py > $D/DR.log 2>&1
+
+
+
